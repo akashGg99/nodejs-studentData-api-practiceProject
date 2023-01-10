@@ -13,7 +13,7 @@ function loginFn(){
     console.log("api hit ...")
 }
 
-app.use('/login',loginFn)
+// app.use('/login',loginFn)
 
 
 app.listen(3001,()=> console.log("running on Port 3001"))
